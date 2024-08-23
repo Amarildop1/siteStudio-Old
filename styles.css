@@ -1,0 +1,154 @@
+/* Definições Gerais */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; /* Adicionando uma cor de fundo leve */
+}
+
+/* Navbar */
+.navbar {
+    margin-bottom: 20px;
+    background-color: #050529; /* Cor de fundo da navbar */
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+.navbar-nav .nav-link {
+    color: #fff !important; /* Cor dos links da navbar */
+}
+
+.navbar-nav .nav-link:hover {
+    color: #F88732 !important; /* Cor dos links da navbar ao passar o mouse */
+}
+
+/* banner Section */
+.banner {
+    background-image: url('banner-home.png');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    text-align: center;
+    padding: 100px 0;
+    margin-top: 56px; /* Ajuste para garantir que o conteúdo não fique sobre o menu fixo */
+}
+
+.banner h1 {
+    font-size: 3rem;
+}
+
+.banner p {
+    font-size: 1.25rem;
+}
+
+/* Seções */
+section {
+    padding: 60px 0;
+}
+
+/* Section Sobre */
+#sobre{
+    background-color: #dc7b0a;
+}
+
+/* Section Método de Treino */
+#metodo{
+    color: white;
+
+}
+
+section.bg-light {
+    background-color: #f8f9fa; /* Cor de fundo para seções com a classe bg-light */
+}
+
+/* Seção com Imagem de Fundo */
+.section-bg {
+    background-image: url('/background.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; /* Parallax effect */
+    color: #fff;
+}
+
+/* Protocolo de Treino */
+#protocolo .row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#protocolo .col-md-4 {
+    flex: 1 1 33.33%; /* 3 colunas na versão desktop */
+    margin-bottom: 30px;
+}
+
+/* Formulário de Contato */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+form .form-control {
+    margin-bottom: 15px;
+}
+
+/* Footer */
+footer {
+    background-color: #343a40; /* Cor de fundo do footer */
+    color: #fff;
+    text-align: center;
+    padding: 20px 0; /* Adicionando um pouco de padding */
+}
+
+/* Botão de Voltar ao Topo */
+#back-to-top {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #050529;
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 5px;
+    display: none;
+    cursor: pointer;
+}
+
+#back-to-top:hover {
+    background-color: #F88732;
+}
+
+/* Menu Fixo */
+.navbar-fixed-top {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 1030;
+}
+
+/* Efeito Parallax */
+.parallax {
+    background-image: url('parallax-image.png');
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    position: relative;
+}
+
+/* Ajustes Responsivos */
+@media (max-width: 767.98px) {
+    .navbar {
+        margin-bottom: 0;
+    }
+
+    #protocolo .col-md-4 {
+        flex: 1 1 100%; /* 1 coluna na versão mobile */
+    }
+}
+
+@media (min-width: 768px) {
+    .navbar-nav {
+        margin-left: auto;
+    }
+}
