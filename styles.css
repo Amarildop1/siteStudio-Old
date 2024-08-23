@@ -52,6 +52,16 @@ section {
 /* Section Sobre */
 #sobre{
     background-color: #dc7b0a;
+    color: black;
+}
+
+.imagens-entre-textos{
+    width: 300px;
+    padding: auto;
+}
+
+.imagemEtextos{
+    margin: 2rem;
 }
 
 /* Section Método de Treino */
