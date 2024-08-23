@@ -43,6 +43,7 @@ body {
     font-size: 1.25rem;
 }
 
+
 /* Seções */
 section {
     padding: 60px 0;
@@ -63,9 +64,10 @@ section.bg-light {
     background-color: #f8f9fa;
 }
 
+/* .section-bg por enquanto É LIXO */
 /* Seção com Imagem de Fundo */
 .section-bg {
-    background-image: url('/background.jpg');
+    background-image: url('imagem11.png');
     background-size: cover;
     background-position: center;
     background-attachment: fixed; /* Parallax effect */
@@ -136,6 +138,7 @@ footer {
     position: relative;
 }
 
+
 /* Ajustes Responsivos */
 @media (max-width: 767.98px) {
     .navbar {
@@ -147,8 +150,10 @@ footer {
     }
 }
 
+
 @media (min-width: 768px) {
     .navbar-nav {
         margin-left: auto;
     }
 }
+
