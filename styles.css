@@ -3,13 +3,13 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4; /* Adicionando uma cor de fundo leve */
+    background-color: #f4f4f4;
 }
 
 /* Navbar */
 .navbar {
     margin-bottom: 20px;
-    background-color: #050529; /* Cor de fundo da navbar */
+    background-color: #050529;
     position: fixed;
     top: 0;
     width: 100%;
@@ -17,11 +17,11 @@ body {
 }
 
 .navbar-nav .nav-link {
-    color: #fff !important; /* Cor dos links da navbar */
+    color: #fff !important;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #F88732 !important; /* Cor dos links da navbar ao passar o mouse */
+    color: #F88732 !important;
 }
 
 /* banner Section */
@@ -60,7 +60,7 @@ section {
 }
 
 section.bg-light {
-    background-color: #f8f9fa; /* Cor de fundo para seções com a classe bg-light */
+    background-color: #f8f9fa;
 }
 
 /* Seção com Imagem de Fundo */
@@ -95,10 +95,10 @@ form .form-control {
 
 /* Footer */
 footer {
-    background-color: #343a40; /* Cor de fundo do footer */
+    background-color: #343a40;
     color: #fff;
     text-align: center;
-    padding: 20px 0; /* Adicionando um pouco de padding */
+    padding: 20px 0;
 }
 
 /* Botão de Voltar ao Topo */
