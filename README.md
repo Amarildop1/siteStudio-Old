@@ -3,5 +3,5 @@
 
 #### Disponível em:
 
-studio.apdeveloper.com.br
+std.apdeveloper.com.br
 
